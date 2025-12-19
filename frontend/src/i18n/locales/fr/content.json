@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "title": "Baptiste Chevassut × Consort Switzerland",
+    "subtitle": "Ingénieur OpenStack, Candidature Interactive",
+    "domain": "os-apply.consort.chevassut.ch",
+    "generatedAt": "2025-12-13"
+  },
+  "profile": {
+    "summary": "Cloud Engineer avec 5+ ans d'expérience, spécialisé OpenStack et infrastructure multi-cloud. Mon parcours combine expertise opérationnelle (support N1-N3 Infomaniak, consulting horlogerie suisse), vision produit (NeoStack, 350+ endpoints API) et innovation AI/LLM (RAG, fine-tuning, agents autonomes). Fondateur de BeConseil, je délivre des solutions cloud résilientes et conformes pour des clients exigeants (cabinets d'avocats, industrie horlogère).",
+    "traits": ["Leadership Technique", "Vision Produit", "Communication Client"],
+    "availability": "Disponibilité immédiate",
+    "permit": "Permis G (frontalier)",
+    "avatar": "/photos/baptiste-headshot.jpg"
+  },
+  "hero": {
+    "name": "Baptiste Chevassut",
+    "title": "Ingénieur OpenStack",
+    "tagline": "Une nouvelle étape, un nouvel élan.",
+    "description": "Je suis à la recherche d'une aventure sur OpenStack, enrichissante techniquement et humainement. Votre offre chez Consort Switzerland coche toutes les cases : une équipe à taille humaine, des missions clients variées, et un vrai positionnement sur l'expertise cloud avec un placement chez le client.",
+    "cta": {
+      "primary": { "text": "Voir les projets", "anchor": "#projects" },
+      "secondary": { "text": "CV Format PDF", "href": "/documents/cv-baptiste-chevassut.pdf" }
+    },
+    "stats": [
+      { "value": "4+ ans", "label": "Expertise OpenStack" },
+      { "value": "100-200k", "label": "Target Range" },
+      { "value": "Immédiat", "label": "Disponibilité" }
+    ]
+  },
+  "about": {
+    "title": "À Propos",
+    "subtitle": "L'humain derrière l'ingénieur, ce qui me drive",
+    "photos": [
+      "/photos/baptiste-headshot.jpg",
+      "/photos/photo-voile-1.jpg",
+      "/photos/photo-voile-2.jpg"
+    ],
+    "description": [
+      "Mon parcours est un mélange unique d'expertise technique et de compétences en gestion de projet. J'apporte l'adaptabilité et la vision nécessaires pour relever des défis complexes, qu'il s'agisse d'infrastructure cloud, d'optimisation système ou d'intégration d'IA.",
+      "J'ai mené avec succès des équipes pluridisciplinaires et géré des projets aux multiples facettes (migrations ERP, automatisation, consulting), en alignant toujours les solutions techniques sur les objectifs stratégiques globaux.",
+      "Cette polyvalence me permet de créer des résultats sur mesure qui non seulement répondent aux besoins des clients, mais les dépassent souvent, assurant une valeur à long terme."
+    ],
+    "status": [
+      { "label": "Localisation", "value": "Ville-La-Grand (74)", "icon": "map-pin" },
+      { "label": "Mobilité", "value": "Permis B & Véhicule", "icon": "car" },
+      { "label": "Statut", "value": "Frontalier (Permis G)", "icon": "briefcase" },
+      { "label": "Astreintes", "value": "Ouvert au service de piquet", "icon": "clock" },
+      { "label": "Déplacements", "value": "Mobile (Suisse & Europe)", "icon": "globe" },
+      { "label": "Soft Skills", "value": "Leadership, Orienté Solution", "icon": "user" }
+    ],
+    "growthFocus": {
+      "title": "Là où je veux progresser",
+      "items": [
+        "Approfondir l'expertise OpenStack (déploiement, upgrades, day-2 operations)",
+        "Renforcer la dimension Sécurité & Hardening (Cloud Security, Zero Trust)"
+      ]
+    },
+    "passions": [
+      {
+        "title": "Systèmes Complexes & R&D",
+        "description": "Comprendre l'inconnu. Déconstruire des architectures IT complexes pour innover.",
+        "icon": "puzzle"
+      },
+      {
+        "title": "Nouvelles Techs & Sécu",
+        "description": "Veille constante : IA (LLM, Agents), Cloud Native, sécurité (CVE, exploits, best practices).",
+        "icon": "cpu"
+      },
+      {
+        "title": "Entrepreneuriat & Intrapreneuriat",
+        "description": "Créer et innover, que ce soit en solo ou au sein d'une équipe. L'esprit startup au service du collectif.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Voile & Régate",
+        "description": "Course sur le lac Léman. Alignement géographique parfait avec Genève, esprit d'équipe et dépassement de soi.",
+        "icon": "anchor"
+      }
+    ]
+  },
+  "offer": {
+    "title": "L'Opportunité",
+    "subtitle": "Analyse de l'offre Ingénieur OpenStack H/F",
+    "jobUrl": "https://careers.consort-group.com/jobs/6850434-ingenieur-openstack-h-f",
+    "company_context": "Consort Group accompagne depuis plus de 30 ans les entreprises dans la valorisation de leurs données. Avec Consort Switzerland, jeune acteur du marché local, vous misez sur l'humain et la responsabilité sociétale.",
+    "team_context": "Une équipe dynamique et bienveillante de 10 collaborateurs à Genève, ancrée localement.",
+    "engagement_context": "Chez Consort Group, chaque mission est une étape qui compte. Onboarding attentif, proximité managériale et culture du feedback.",
+    "jobAd": {
+      "header": "Ingénieur OpenStack H/F",
+      "subHeader": "Chaque moment compte. Surtout ceux que vous vivez à fond. Bienvenue chez Consort Group.",
+      "about": "Consort Group, accompagne depuis plus de 30 ans les entreprises dans la valorisation de leurs données et infrastructures. Elle s'appuie sur deux leaders, Consortis et Consortia, et place l'humain et la responsabilité sociétale au cœur de ses valeurs.",
+      "sections": [
+        {
+          "title": "C'est votre future équipe",
+          "content": "Jeune acteur du marché suisse des services numériques, Consort Switzerland, s'appuie sur la force de l'écosystème Consort Group pour accompagner ses clients avec l'engagement d'une équipe dynamique, bienveillante et localement ancrée. Déjà appuyée par une équipe de 10 collaborateurs, elle mobilise ses ressources pour répondre à vos besoins en prestations ou en assistance technique avec des solutions rapides, efficaces et personnalisées, tant sur le plan humain que technologique."
+        },
+        {
+          "title": "C'est votre mission",
+          "content": [
+            "Nous recherchons un Ingénieur OpenStack expérimenté pour intervenir directement chez l'un de nos clients.",
+            "Assurer le déploiement, l'exploitation et la maintenance d'une plateforme OpenStack en production.",
+            "Participer à l'amélioration continue de l'architecture et aux projets d'évolution.",
+            "Garantir la fiabilité, la sécurité et la performance de l'infrastructure.",
+            "Réaliser du troubleshooting avancé (compute, réseau, stockage).",
+            "Automatiser et industrialiser les opérations via Ansible / Terraform / scripts.",
+            "Travailler en étroite collaboration avec les équipes internes du client (réseau, sécurité, systèmes).",
+            "Produire la documentation technique et assurer le transfert de compétences."
+          ],
+          "isList": true
+        },
+        {
+          "title": "C'est votre parcours",
+          "content": "Ingénieur/Administrateur Cloud avec au moins 2–5 ans d'expérience OpenStack."
+        },
+        {
+          "title": "C'est votre expertise",
+          "content": [
+            "Maîtrise d'OpenStack : Nova, Neutron, Cinder, Keystone, Horizon",
+            "Bonne connaissance de Linux (Ubuntu, CentOS, Rocky).",
+            "Virtualisation : KVM/QEMU, gestion du stockage (Ceph apprécié).",
+            "Réseau : TCP/IP, VLAN, VXLAN, routage, notions SDN.",
+            "Automatisation : Ansible, Terraform, scripting (Python/Bash).",
+            "Notions Kubernetes / Docker = un plus."
+          ],
+          "isList": true
+        },
+        {
+          "title": "C'est notre engagement",
+          "content": [
+            "Chez Consort Group, vous êtes un·e expert·e qu'on accompagne pour que chaque mission devienne une étape qui compte.",
+            "Un onboarding attentif et humain",
+            "Une vraie proximité managériale",
+            "Des formations accessibles en continu",
+            "Des engagements concrets : inclusion, égalité, solidarité",
+            "Le programme Move Up x United Heroes pour bouger et respirer",
+            "Une culture du feedback et des projets qui font sens"
+          ],
+          "isList": true
+        },
+        {
+          "title": "C'est clair : Le process",
+          "content": [
+            "Un premier échange téléphonique avec notre team recrutement",
+            "Un entretien RH ainsi qu'un échange métier avec un.e ingénieur.e d'affaires",
+            "Un test ou un échange technique avec un.e de nos expert.es",
+            "Un dernier point avec votre futur.e manager ou responsable de mission",
+            "Et si on se reconnaît : on démarre ensemble"
+          ],
+          "isList": true
+        }
+      ],
+      "details": [
+        { "label": "Lieu", "value": "Genève", "icon": "map-pin" },
+        { "label": "Contrat", "value": "CDI", "icon": "file-check" },
+        { "label": "Télétravail", "value": "1 jour / sem.", "icon": "home" },
+        { "label": "Salaire", "value": "100K - 200K CHF", "icon": "banknote" },
+        { "label": "Famille", "value": "Infrastructures / Cloud", "icon": "server" }
+      ],
+      "footer": "Ce que vous ferez ici, vous ne le ferez nulle part ailleurs. Ce moment, c'est le vôtre."
+    },
+    "pillars": [
+      { "id": 1, "title": "Déploiement & Maintenance", "description": "4+ ans sur OpenStack (Infomaniak, freelance). Je sais déployer et maintenir des plateformes en production critique.", "icon": "server" },
+      { "id": 2, "title": "Fiabilité & Sécurité", "description": "Clients exigeants (cabinets d'avocats, horlogerie, industrie suisse...) : j'ai appris à garantir disponibilité et conformité sans compromis.", "icon": "shield" },
+      { "id": 3, "title": "Troubleshooting Avancé", "description": "Incidents Neutron, rebalancing Ceph, perf I/O, j'ai participé activement à leur résolution chez Infomaniak (>5k clients).", "icon": "wrench" },
+      { "id": 4, "title": "Automatisation", "description": "IaC au quotidien : ce site est déployé via Terraform + Ansible. Pipelines CI/CD sur tous mes projets.", "icon": "cog" },
+      { "id": 5, "title": "Documentation", "description": "Architecture docs, inventaires fonctionnels, procédures d'exploitation. Le savoir doit se transmettre.", "icon": "file-text" },
+      { "id": 6, "title": "Collaboration", "description": "Certifié Infomaniak « Esprit d'équipe » et « Communication ». Satisfaction client portée de 2.2 à 4.5/5 (de 70 à 725 avis).", "icon": "trending-up" }
+    ]
+  },
+  "match": {
+    "title": "L'expertise demandée",
+    "subtitle": "Chaque exigence du poste, ma réponse concrète",
+    "requiredLabel": "Requis",
+    "bonusLabel": "Bonus",
+    "proofTypes": {
+      "experience": "Expérience",
+      "project": "Projet",
+      "certification": "Certifié",
+      "metric": "Métrique"
+    },
+    "items": [
+      { "requirement": "2-5 ans d'expérience OpenStack", "response": "4+ ans d'expérience quotidienne", "proof": "Infomaniak (Tech Lead IaaS 1.5 an), Freelance horlogerie/ESN (8 mois), BeConseil (1 an 8 mois). Migrations infra physique vers OpenStack (100-200 VMs/CTs).", "icon": "calendar", "proofType": "experience" },
+      { "requirement": "Nova, Neutron, Cinder, Keystone, Horizon", "response": "Maîtrise complète + Designate, Heat, Octavia", "proof": "Exploitation quotidienne des 5 composants core + Designate (DNS automation), Heat (orchestration), Octavia (LBaaS). Infomaniak + clients BeConseil.", "icon": "layers", "proofType": "experience" },
+      { "requirement": "Troubleshooting avancé", "response": "Résolution incidents critiques", "proof": "Ingénieur système expert OpenStack chez Infomaniak : debug Security Groups Neutron, recovery OSD Ceph, optimisation perf I/O.", "icon": "wrench", "proofType": "experience" },
+      { "requirement": "Linux (Ubuntu, CentOS, Rocky)", "response": "Admin système depuis 2019", "proof": "Environnements hétérogènes (Debian, RHEL, Rocky). Gestion bare-metal >50 serveurs (IPMI/iDRAC). Hardening, systemd, scripting.", "icon": "terminal", "proofType": "experience" },
+      { "requirement": "KVM/QEMU, Ceph", "response": "Virtualisation & Stockage Distribué", "proof": "Infomaniak : Ceph stockage natif, KVM hyperviseur. Gestion Placement Groups, haute dispo, rebalancing OSD.", "icon": "database", "proofType": "experience" },
+      { "requirement": "Réseau : TCP/IP, VLAN, VXLAN, SDN", "response": "Architecture Réseau Cloud", "proof": "Design tenant réseaux (VXLAN), intégration Octavia (LBaaS), routage inter-tenant, Security Groups.", "icon": "trending-up", "proofType": "project" },
+      { "requirement": "Automatisation (Ansible, Terraform)", "response": "IaC au cœur de ma pratique", "proof": "Ce site = Terraform + Ansible. Pipelines CI/CD automatisés. NeoStack : 90+ outils Ansible/Terraform.", "icon": "code", "proofType": "project" },
+      { "requirement": "Kubernetes / Docker", "response": "Utilisés en production", "proof": "K8s, K3s, Docker Swarm déployés en production. Conseil architecture K8s clients VIP Infomaniak.", "icon": "box", "proofType": "experience", "isBonus": true },
+      { "requirement": "Documentation technique", "response": "Docs architecture & procédures", "proof": "Rédaction docs d'architecture, inventaires fonctionnels, runbooks d'exploitation. Formation équipes.", "icon": "book", "proofType": "experience" },
+      { "requirement": "Esprit d'équipe & Communication", "response": "Satisfaction client ×3, certifié", "proof": "Score satisfaction : 2.2 → 4.5/5 (70 → 725 avis). Certificats Infomaniak : Communication, Esprit d'équipe, Attitude positive.", "icon": "users", "proofType": "metric" },
+      { "requirement": "Leadership technique", "response": "Direction équipe de 8 personnes", "proof": "UMB Network : pilotage 4 FT + 4 freelancers. Livrables : CRM, ERP, e-commerce, app mobile. Mentoring juniors Infomaniak.", "icon": "users", "proofType": "experience" },
+      { "requirement": "Conseil client", "response": "Architecte solutions VIP", "proof": "Clients VIP Infomaniak : cluster K8s traitement images satellite, designs OpenStack sur mesure. Accompagnement grands comptes.", "icon": "briefcase", "proofType": "experience" }
+    ]
+  },
+  "skills": {
+    "title": "Compétences (Hard Skills)",
+    "subtitle": "Vue d'ensemble de mon arsenal technique",
+    "groups": [
+      {
+        "id": "openstack",
+        "name": "OpenStack",
+        "description": "Maîtrise complète de la stack OpenStack.",
+        "icon": "cloud",
+        "mainSkills": [
+          { "name": "Core (Nova/Neutron/Cinder)", "level": "Expert" },
+          { "name": "Identity & Storage", "level": "Avancé" },
+          { "name": "Orchestration & LBaaS", "level": "Avancé" }
+        ],
+        "ecosystem": ["Nova", "Neutron", "Cinder", "Keystone", "Glance", "Swift", "Heat", "Octavia", "Barbican", "Cloudkitty", "Designate", "Horizon", "Manila", "Magnum"]
+      },
+      {
+        "id": "os-virt",
+        "name": "OS & Virtualisation",
+        "description": "Socle fondamental des infrastructures.",
+        "icon": "server",
+        "mainSkills": [
+          { "name": "Linux (Debian/RHEL)", "level": "Avancé" },
+          { "name": "Windows Server", "level": "Avancé" },
+          { "name": "Virtualisation", "level": "Expert" }
+        ],
+        "ecosystem": ["Ubuntu", "Debian", "CentOS/Rocky", "Fedora", "RHEL", "Kali", "Proxmox", "KVM/QEMU", "VMware", "LXC", "systemd", "IPMI/iDRAC"]
+      },
+      {
+        "id": "multi-cloud",
+        "name": "Multi-Cloud",
+        "description": "Expérience complémentaire multi-cloud.",
+        "icon": "globe",
+        "mainSkills": [
+          { "name": "Infomaniak (OpenStack)", "level": "Expert" },
+          { "name": "OVH (OpenStack)", "level": "Avancé" },
+          { "name": "Azure", "level": "Avancé" },
+          { "name": "AWS", "level": "Avancé" }
+        ],
+        "ecosystem": ["Infomaniak", "OVH", "Azure", "AWS", "GCP", "Scaleway"]
+      },
+      {
+        "id": "devops",
+        "name": "DevOps & Automation",
+        "description": "CI/CD, IaC et Orchestration.",
+        "icon": "code",
+        "mainSkills": [
+          { "name": "CI/CD Pipelines", "level": "Avancé" },
+          { "name": "Kubernetes/Docker", "level": "Avancé" },
+          { "name": "Automation", "level": "Avancé" }
+        ],
+        "ecosystem": ["GitLab CI", "GitHub Actions", "Jenkins", "ArgoCD", "Ansible", "Terraform", "Pulumi", "Chef", "Puppet", "Docker Swarm", "K3s", "Portainer", "N8N"]
+      },
+      {
+        "id": "network-sec",
+        "name": "Network & Security",
+        "description": "Connectivité, Sécure Design & Cyber.",
+        "icon": "shield",
+        "mainSkills": [
+          { "name": "Net. Protocols", "level": "Intermédiaire" },
+          { "name": "Cybersecurity", "level": "Intermédiaire" },
+          { "name": "Firewalling", "level": "Avancé" }
+        ],
+        "ecosystem": ["TCP/IP", "VLAN/VXLAN", "BGP/OSPF", "OpenVPN", "WireGuard", "pfSense", "OPNsense", "HAProxy", "NGINX", "Fortinet", "Sophos"]
+      },
+      {
+        "id": "cybersec",
+        "name": "Cybersecurity",
+        "description": "Offensive, Defensive & Cloud Security.",
+        "icon": "shield",
+        "mainSkills": [
+          { "name": "Red Team / Pentest", "level": "Avancé" },
+          { "name": "Blue Team / SOC", "level": "Intermédiaire" },
+          { "name": "Cloud Security", "level": "Avancé" }
+        ],
+        "ecosystem": ["Kali", "Metasploit", "Burp Suite", "OWASP ZAP", "Shodan", "Maltego", "Nmap", "Wireshark", "SIEM (Splunk/Sentinel)", "IDS/IPS", "Forensic", "WAF", "Zero Trust", "RBAC", "MFA/OTP", "Hardening", "LLM Red Teaming", "Social Engineering", "Prompt Injection"]
+      },
+      {
+        "id": "storage-db",
+        "name": "Storage & Data",
+        "description": "Persistance, Bases de données et Backup.",
+        "icon": "database",
+        "mainSkills": [
+          { "name": "Storage (Ceph/SAN)", "level": "Avancé" },
+          { "name": "Databases", "level": "Expert" },
+          { "name": "Backup", "level": "Avancé" }
+        ],
+        "ecosystem": ["Ceph", "Swift", "MinIO", "GlusterFS", "NFS/SMB", "PostgreSQL", "MySQL/MariaDB", "Redis", "Qdrant", "Rsync", "SwissBackup", "Veeam"]
+      },
+      {
+        "id": "monitoring",
+        "name": "Monitoring & Observability",
+        "description": "Supervision, Métriques et Log Management.",
+        "icon": "activity",
+        "mainSkills": [
+          { "name": "Métriques & Alerting", "level": "Avancé" },
+          { "name": "Log Management", "level": "Avancé" },
+          { "name": "APM & Tracing", "level": "Intermédiaire" }
+        ],
+        "ecosystem": ["Prometheus", "Grafana", "Alertmanager", "Zabbix", "Nagios", "Loki", "ELK Stack", "Graylog", "Netdata", "OpenTelemetry"]
+      },
+      {
+        "id": "ai-dev",
+        "name": "AI & Development",
+        "description": "Innovation, LLM et Code.",
+        "icon": "brain",
+        "mainSkills": [
+          { "name": "Generative AI", "level": "Expert" },
+          { "name": "Python Dev", "level": "Avancé" },
+          { "name": "Web Stack", "level": "Avancé" }
+        ],
+        "ecosystem": ["LangChain", "Hugging Face", "ChromaDB", "Weaviate", "Whisper", "LoRA/PEFT", "vLLM", "Ollama", "CUDA/cuDNN", "FastAPI", "Django", "Node.js", "React", "PHP", "Bash", "PowerShell", "GraphQL", "OAuth2"]
+      },
+      {
+        "id": "soft-skills",
+        "name": "Soft Skills",
+        "description": "Compétences humaines et managériales.",
+        "icon": "users",
+        "mainSkills": [
+          { "name": "Leadership", "level": "Avancé" },
+          { "name": "Gestion de Projet", "level": "Avancé" },
+          { "name": "Relation Client", "level": "Expert" }
+        ],
+        "ecosystem": ["Management d'équipe", "Mentoring", "Résolution de conflits", "Communication stratégique", "Gestion des priorités", "Risk assessment", "Adaptabilité", "Négociation", "Conseil VIP", "Écoute active"]
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Mon parcours",
+    "totalExperience": "5+ ans d'expérience cumulée",
+    "experiences": [
+      {
+        "id": 1,
+        "period": "Avr 2024 à aujourd'hui",
+        "duration": "1 an 8 mois",
+        "company": "BeConseil",
+        "role": "Founder & CEO",
+        "location": "Suisse, France",
+        "type": "current",
+        "highlights": [
+          "FBT Avocats SA (Genève) : infrastructure IA hybride (on-premise + réplicat OpenStack) + app PKI en production",
+          "Développement NeoStack : plateforme OpenStack avec IA (350+ endpoints, 90+ outils)",
+          "Pipelines DevOps Python/Terraform/Ansible pour déploiements automatisés",
+          "Consulting cloud & AI pour cabinets juridiques et entreprises",
+          "Fine-tuning LLM et déploiement RAG pour knowledge bases documentaires"
+        ],
+        "tags": ["OpenStack", "Python", "FastAPI", "Terraform", "Ansible", "AI/LLM", "PKI"]
+      },
+      {
+        "id": 2,
+        "period": "Fév à Avr 2024",
+        "duration": "2 mois",
+        "company": "Aura Blockchain Consortium",
+        "role": "Blockchain Support Engineer",
+        "location": "Genève",
+        "type": "contract",
+        "highlights": [
+          "Intégration cloud (Application Gateway, Virtual Networks)",
+          "Automatisation Python pour workflows inter-départements",
+          "Migration Jira vers Notion avec setup workflows",
+          "PoC NFC chiffré pour authentification produits luxe"
+        ],
+        "tags": ["Cloud", "Python", "Blockchain", "NFC"]
+      },
+      {
+        "id": 3,
+        "period": "Juil 2023 à Fév 2024",
+        "duration": "8 mois",
+        "company": "Freelance",
+        "role": "IT System Engineer",
+        "location": "Neuchâtel, Lausanne, Genève",
+        "type": "openstack",
+        "highlights": [
+          "ESN & IT Services : consulting infrastructure, audits sécurité, optimisation performance",
+          "Déploiement infrastructures OpenStack + VMware hybrides pour clients exigeants",
+          "Conseil architecture cloud et conformité réglementaire (données sensibles)"
+        ],
+        "tags": ["OpenStack", "VMware", "Security", "HA", "Consulting"]
+      },
+      {
+        "id": 4,
+        "period": "Déc 2021 à Juil 2023",
+        "duration": "1 an 7 mois",
+        "company": "Infomaniak",
+        "role": "Tech Lead Public Cloud (IaaS)",
+        "location": "Genève",
+        "type": "openstack",
+        "highlights": [
+          "Support N1-N3 infrastructure OpenStack (>5k clients) : troubleshooting Neutron, Nova, Cinder, Ceph, Glance, Octavia",
+          "Troubleshooting avancé : résolution incidents Security Groups, OSD Ceph rebalancing, performance I/O, Horizon",
+          "Évolution architecture : scaling compute/storage nodes, upgrades versions, planification et préparation migrations workloads",
+          "Conseil architecture clients VIP : design cloud privé, migration, optimisation",
+          "Collaboration transverse : projets amélioration process/tooling avec équipes réseau, sécurité, dev",
+          "Projet Customer Reassurance : avis passés de 2.2 à 4.5/5 (de 70 à 725 reviews)",
+          "Documentation : architecture docs, design docs, diagrammes techniques"
+        ],
+        "tags": ["OpenStack", "Nova", "Neutron", "Cinder", "Keystone", "Swift", "Ceph", "Team Lead", "Troubleshooting"]
+      },
+      {
+        "id": 5,
+        "period": "Mai 2020 à Nov 2021",
+        "duration": "1 an 7 mois",
+        "company": "UMB NETWORK S.A.R.L",
+        "role": "Founder",
+        "location": "Grenoble, France",
+        "type": "cloud",
+        "highlights": [
+          "Gestion infrastructure multi-cloud (Proxmox HA, VMware) pour 80+ clients",
+          "Direction équipe technique : 4 employés + 4 freelancers",
+          "Solutions IoT fleet management (intégration CAN/OBD)",
+          "E-commerce & Click & Collect via WooCommerce API",
+          "Business development et gestion commerciale complète"
+        ],
+        "tags": ["VMware", "Proxmox", "Multi-Cloud", "Team Leadership", "IoT"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets & Réalisations",
+    "items": [
+      {
+        "id": "neostack",
+        "name": "NeoStack",
+        "tagline": "L'alternative moderne à Horizon",
+        "icon": "layout",
+        "previews": [
+          "/screenshots/neostack-dashboard.png",
+          "/screenshots/neostack-explorer.png",
+          "/screenshots/neostack-loadbalancer.png"
+        ],
+        "description": "Plateforme complète de gestion OpenStack avec assistant IA intégré. Développer NeoStack m'a donné une compréhension profonde des APIs et mécanismes internes d'OpenStack, bien au-delà de la simple utilisation.",
+        "metrics": [
+          { "value": "350+", "label": "endpoints API" },
+          { "value": "90+", "label": "outils" },
+          { "value": "13", "label": "services OpenStack" },
+          { "value": "898", "label": "tests automatisés" }
+        ],
+        "stack": ["React 19", "FastAPI", "ChromaDB", "Redis", "TailwindCSS", "TypeScript", "Python"],
+        "features": [
+          "Gestion complète : Nova, Neutron, Cinder, Keystone, Swift, Heat, Octavia",
+          "Assistant IA multi-provider (Infomaniak, Claude, Mistral, Llama)",
+          "Terminal web sécurisé avec isolation container",
+          "Deploy from Git avec détection automatique de stack",
+          "Visualisation infrastructure en graphe interactif",
+          "Export Terraform/Heat de l'infrastructure existante"
+        ],
+        "links": [
+          { "type": "video", "url": "https://www.loom.com/share/6c2829da2ae64428b6d4b44bc2e5dbb2", "label": "Démo Vidéo" }
+        ]
+      },
+      {
+        "id": "fbt",
+        "name": "FBT Avocats SA",
+        "tagline": "Infrastructure IA & PKI pour cabinet juridique",
+        "icon": "shield",
+        "description": "Double projet pour l'un des cabinets d'avocats de référence à Genève : infrastructure IA hybride (on-premise + réplicat sur OpenStack Infomaniak) respectant la confidentialité des données juridiques, et application PKI pour la gestion du parc de chiffrement.",
+        "components": [
+          {
+            "name": "IA Hybride",
+            "description": "LLM sécurisé pour traitement documents juridiques confidentiels (on-premise + réplicat OpenStack)",
+            "features": ["RAG documentaire", "Fine-tuning métier juridique", "Isolation données", "Réplication cloud"]
+          },
+          {
+            "name": "App PKI",
+            "description": "Gestion centralisée des clés et certificats du cabinet",
+            "features": ["Gestion clés/certificats", "Rotation automatique", "Conformité RGPD/LPD"],
+            "status": "En production"
+          }
+        ],
+        "stack": ["Python", "FastAPI", "LangChain", "Qdrant", "PKI/X.509"],
+        "confidential": true
+      },
+      {
+        "id": "ai-projects",
+        "name": "Projets AI/LLM",
+        "tagline": "RAG, Agents autonomes, Fine-tuning",
+        "icon": "brain",
+        "description": "Portfolio de projets AI développés pour différents clients et cas d'usage métier.",
+        "categories": [
+          {
+            "name": "RAG & Knowledge Bases",
+            "description": "Systèmes de recherche documentaire augmentés par IA (FAISS, Qdrant, Weaviate)"
+          },
+          {
+            "name": "Agents Autonomes",
+            "description": "Coding agents, automatisation de tâches, MCP servers"
+          },
+          {
+            "name": "Fine-tuning LLM",
+            "description": "Adaptation de modèles pour cas métier spécifiques (LoRA, PEFT, quantization)"
+          }
+        ],
+        "stack": ["LangChain", "Qdrant", "FAISS", "Hugging Face", "LoRA", "Claude", "Mistral"]
+      },
+      {
+        "id": "this-site",
+        "name": "Ce site",
+        "tagline": "La candidature qui se déploie elle-même",
+        "icon": "code",
+        "description": "Site de candidature personnalisé déployé sur OpenStack Infomaniak via Terraform et Ansible.",
+        "infrastructure": {
+          "compute": "Instance OpenStack (Infomaniak Public Cloud)",
+          "provisioning": "Terraform",
+          "configuration": "Ansible",
+          "cicd": "GitHub Actions",
+          "dns": "Designate (os-apply.consort.chevassut.ch)"
+        },
+        "links": [
+          { "type": "github", "url": "https://github.com/bchevCH/cv-consort", "label": "Code Source" }
+        ]
+      },
+      {
+        "id": "freelance-agency",
+        "name": "80+ Projets TPE/PME",
+        "tagline": "France & Suisse",
+        "icon": "briefcase",
+        "description": "Durant mes différentes expériences (UMB Network, Freelance), j'ai accompagné plus de 80 clients (artisans, commerçants, PME) dans leur transformation numérique : infrastructure locale, sites web, e-commerce et maintenance.",
+        "features": [
+          "Création de sites vitrines & E-commerce",
+          "Gestion serveurs VPS & Hébergement",
+          "Support technique & Infogérance",
+          "Audit & Conseil de proximité"
+        ],
+        "stack": ["WordPress", "WooCommerce", "VPS", "Maintenance", "Consulting"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "period": "2019-2020",
+        "title": "BTS Services Informatiques (SIO)",
+        "school": "CFP Charmilles, Genève",
+        "location": "Genève",
+        "note": "1ère année en alternance"
+      },
+      {
+        "period": "2019",
+        "title": "Bac STMG - Mention Bien",
+        "school": "Lycée Aristides Bergès",
+        "location": "France",
+        "note": "Projet final 20/20 (Crypto Exchange)"
+      }
+    ],
+    "languages": [
+      { "name": "Français", "level": "Natif" },
+      { "name": "Anglais", "level": "C1", "detail": "Usage technique quotidien" }
+    ]
+  },
+  "deployment": {
+    "title": "Comment ce site a été déployé",
+    "subtitle": "La preuve par l'action",
+    "intro": {
+      "title": "Over-engineered ? Volontairement.",
+      "description": "Un simple site statique ne nécessite pas Terraform, Ansible et Docker. Mais cette candidature est une démonstration : je maîtrise les outils que vous demandez, et je le prouve en les utilisant pour vous présenter mon CV."
+    },
+    "steps": [
+      { "id": 1, "title": "Infrastructure as Code", "subtitle": "Terraform sur OpenStack", "components": ["Instance compute", "Security Group", "Floating IP", "DNS Designate", "Provisioner Ansible"], "skill": "Terraform" },
+      { "id": 2, "title": "Configuration", "subtitle": "Ansible puis Docker", "components": ["Setup système", "Installation Docker", "Certbot SSL", "Clone repo", "Docker Compose up"], "skill": "Ansible" },
+      { "id": 3, "title": "Conteneurisation", "subtitle": "Docker + Nginx", "components": ["Multi-stage build", "Build Node.js, serve Nginx", "Config SSL/HTTP", "Health checks", "Image optimisée"], "skill": "Docker" },
+      { "id": 4, "title": "CI/CD", "subtitle": "GitHub Actions", "components": ["Build on push", "Lint + Type-check", "rsync vers serveur", "Docker rebuild", "Health check"], "skill": "DevOps" }
+    ],
+    "result": {
+      "title": "Résultat",
+      "items": ["terraform apply", "Site en ligne en ~5 min", "100% reproductible", "Mises à jour via git push"]
+    },
+    "cta": {
+      "text": "Voir le code source",
+      "url": "https://github.com/bchevCH/cv-consort"
+    }
+  },
+  "testimonials": {
+    "title": "Recommandations",
+    "recommendation": {
+      "company": "Infomaniak Network SA",
+      "date": "31 Juillet 2023",
+      "author": "Anne Passera",
+      "role": "Spécialiste RH",
+      "excerpt": "Monsieur Baptiste Chevassut a fait preuve de motivation au travail et de dynamisme. Nous tenons à souligner son esprit d'équipe et son sens de la communication... Le travail qu'il a accompli ainsi que son attitude nous ont donné entière satisfaction. Nous le recommandons chaleureusement à tout employeur désireux de faire appel à ses services.",
+      "qualities": ["Motivation", "Dynamisme", "Esprit d'équipe", "Autonomie", "Conscience pro"],
+      "downloadUrl": "/documents/certificat-infomaniak.JPG"
+    },
+    "items": [
+      {
+        "author": "Kevin Allioli",
+        "role": "Cloud & Solutions Architect at Infomaniak Network SA",
+        "relation": "Le 8 avril 2024, Kevin a été le mentor de Baptiste",
+        "content": "I highly recommend Baptiste for his work as a member of our team. Throughout our collaboration, I have been particularly impressed by his ability to understand and respond to the needs of our clients.\n\nBaptiste has always demonstrated active listening, ensuring he understands the issues our clients are facing before proposing solutions. His ability to quickly understand complex problems and translate them into simple terms for our clients has been a real added value.\n\nFurthermore, Baptiste has rigorously and organizedly followed the cases he was in charge of.\n\nIn summary, Baptiste is a competent and rigorous professional. His listening skills, understanding of client needs, and methodical follow-up of cases make him a solid asset for any team. I am convinced that he will be a valuable asset for any organization that will be lucky enough to have him."
+      },
+      {
+        "author": "Julien Cauwet",
+        "role": "Création de plateformes web sur mesure | Professeur OpenClassrooms",
+        "relation": "Le 15 mars 2025, Julien a été le client de Baptiste",
+        "content": "J'ai eu l'immense plaisir de croiser la route de Baptiste lors d'un retour de voyage en covoiturage. Ce qui aurait pu être une simple discussion entre passagers s'est rapidement transformé en une véritable séance de réflexion stratégique.\n\nEn tant que créateur de l'application Voixlibre, dédiée à la démocratie participative, j'étais en pleine réflexion sur l'amélioration de l'expérience utilisateur et sur la meilleure approche de commercialisation. Baptiste, avec son esprit analytique et ses questions pertinentes, a su me pousser à explorer des perspectives auxquelles je n'avais pas pensé. Sans même le savoir au départ, il jouait son rôle de conseil d'entreprises, me mettant face à des interrogations clés qui ont littéralement éclairé mon chemin.\n\nGrâce à son implication et à son écoute, j'ai pu identifier une approche optimale pour faire évoluer Voixlibre. Cette rencontre fortuite a été non seulement enrichissante, mais aussi décisive pour mon projet.\n\nJe recommande vivement Baptiste à toute personne ou organisation cherchant un conseiller stratégique clairvoyant, curieux et stimulant. C'est une personne d'une rare qualité humaine et professionnelle."
+      },
+      {
+        "author": "Caner Korkut",
+        "role": "DevOps | Cloud | Cybersecurity | Building Secure & Scalable Systems",
+        "relation": "Le 5 avril 2025, Caner a travaillé avec Baptiste dans des entreprises différentes",
+        "content": "J'ai eu la chance de collaborer avec Baptiste dans le cadre d'un projet, et j'en garde un excellent souvenir. Il comprend très vite les besoins du client et sait les traduire en solutions concrètes, avec clarté et efficacité.\n\nIl se distingue aussi par sa conscience des enjeux environnementaux, notamment ceux liés à l'impact énergétique des domaines de l'IT, notamment l'AI. Il adopte une approche responsable et réfléchie, toujours tournée vers un avenir plus durable.\n\nDe part son caractère et ses compétences, Baptiste est un vrai atout pour toute équipe :)"
+      },
+      {
+        "author": "Siméon Gourlin",
+        "role": "Administrateur système chez Infomaniak Network SA",
+        "relation": "Le 28 juillet 2024, Siméon occupait une fonction plus élevée que Baptiste",
+        "content": "Baptiste est très curieux de nature et n'hésite pas à se lancer dans de nouveaux défis ! Il est également très appliqué professionnellement, et il fait de la satisfaction client sa première priorité.\n\nJ'ai eu beaucoup de plaisir à travailler avec lui, Baptiste est quelqu'un sur qui l'on peut compter et je le recommande sans hésiter !"
+      }
+    ]
+  },
+  "whyConsort": {
+    "title": "Pourquoi Consort",
+    "reasons": [
+      { "title": "Des problèmes concrets à résoudre", "description": "Intervenir chez le client, diagnostiquer des incidents réels, proposer des solutions qui font la différence. C'est ce qui me motive." },
+      { "title": "L'expertise OpenStack en Suisse", "description": "Rares sont les ESN avec ce positionnement technique. Après Infomaniak, je veux continuer à construire dans cet écosystème local." },
+      { "title": "Une équipe, pas une usine", "description": "10 collaborateurs, de la proximité managériale, des missions qui comptent. L'humain d'abord, c'est aussi ma philosophie." }
+    ]
+  },
+  "commute": {
+    "title": "Mobilité & Trajet",
+    "subtitle": "Une organisation pensée pour la ponctualité et la flexibilité",
+    "origin": "31 rue des Voirons, 74100 Ville-La-Grand",
+    "destination": "4 Esplanade de Pont-Rouge, 1212 Lancy",
+    "modes": [
+      {
+        "type": "bike",
+        "time": "35 min",
+        "label": "Vélo (Voie Verte)",
+        "details": "Mon mode de transport privilégié. Fiable et sans embouteillages grâce à la Voie Verte du Grand Genève.",
+        "preferred": true
+      },
+      {
+        "type": "train",
+        "time": "25 min",
+        "label": "Léman Express",
+        "details": "Trajet complet : vélo jusqu'à Annemasse + 16 min de train jusqu'à Lancy-Pont-Rouge.",
+        "preferred": false
+      },
+      {
+        "type": "car",
+        "time": "25-35 min",
+        "label": "Voiture Personnelle",
+        "details": "Permis B + Véhicule personnel. Variable selon le trafic aux heures de pointe.",
+        "preferred": false
+      }
+    ]
+  },
+  "contact": {
+    "email": "baptiste@chevassut.ch",
+    "phone": "+33 6 34 24 96 67",
+    "address": "31 rue des Voirons, 74100 Ville-La-Grand",
+    "location": "Frontalier (Permis G), Disponibilité immédiate",
+    "linkedin": "https://www.linkedin.com/in/baptiste-chevassut-937a71248/",
+    "github": "https://github.com/bchevCH"
+  }
+}

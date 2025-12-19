@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "about": "À propos",
+    "skills": "Compétences",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "deployment": "Déploiement",
+    "contact": "Me Contacter"
+  },
+  "hero": {
+    "terminal": {
+      "loadingSpecs": "Loading job specs",
+      "done": "DONE",
+      "match": "MATCH",
+      "checkingStack": "Checking technical stack",
+      "checkingSoftSkills": "Checking soft skills",
+      "statusReady": "Status: Prêt à embarquer dans une aventure OpenStack."
+    }
+  },
+  "about": {
+    "passionTitle": "Ce qui m'anime"
+  },
+  "offer": {
+    "officialAd": "Annonce Officielle",
+    "expandAd": "Voir le détail de la mission",
+    "collapseAd": "Réduire l'annonce",
+    "myUnderstanding": "Ma Compréhension du Poste",
+    "myUnderstandingDesc": "Comment je saurais traduire les besoins de votre client en actions concrètes.",
+    "viewOriginalAd": "Voir l'annonce originale"
+  },
+  "skills": {
+    "keySkills": "Compétences Clés",
+    "ecosystem": "Écosystème & Outils",
+    "challengeSolved": "Challenge Résolu"
+  },
+  "timeline": {
+    "subtitle": "Un parcours construit sur la technique et l'humain",
+    "currentPosition": "Poste Actuel",
+    "keyAchievements": "Réalisations Clés"
+  },
+  "projects": {
+    "keyFeatures": "Fonctionnalités Clés",
+    "infraSpecs": "Infrastructure Specs",
+    "flagship": "Flagship",
+    "clickToEnlarge": "Cliquez pour agrandir",
+    "pressEscToClose": "Appuyez sur Echap ou cliquez pour fermer"
+  },
+  "testimonials": {
+    "certificate": "Certificat de Travail",
+    "official": "Officiel",
+    "qualities": "Qualités soulignées",
+    "downloadCertificate": "Télécharger le certificat",
+    "linkedinTitle": "Recommandations LinkedIn",
+    "linkedinSubtitle": "Retours vérifiés de mon réseau professionnel",
+    "seeMoreLinkedin": "Voir les 8 autres recommandations sur Linkedin"
+  },
+  "commute": {
+    "origin": "Domicile",
+    "destination": "Destination",
+    "preferred": "Préféré",
+    "note": "Note",
+    "noteText": "Pont-Rouge est une localisation stratégique idéale. Sa proximité avec la Voie Verte (vélo) et la gare CEVA permet une ponctualité exemplaire, bien supérieure à la traversée du pont du Mont-Blanc."
+  },
+  "contact": {
+    "valueProposition": "La valeur ajoutée",
+    "valueQuestion": "Pourquoi cette mission et pas une autre ?",
+    "coordinates": "Coordonnées",
+    "status": "Statut",
+    "readyToDeploy": "Prêt pour",
+    "excellence": "l'aventure ?",
+    "ctaDescription": "Mon expertise OpenStack et ma vision produit sont à votre disposition. Construisons ensemble l'infrastructure de demain pour Consort et ses clients.",
+    "immediateAvailability": "Disponibilité Immédiate",
+    "gPermit": "Permis G (Frontalier)",
+    "sourceCode": "Code Source",
+    "sourceCodeDesc": "Ce site est open-source. Explorez le code Terraform et React sur GitHub.",
+    "viewRepository": "Voir le repository"
+  },
+  "labels": {
+    "download": "Télécharger",
+    "viewMore": "Voir plus",
+    "readMore": "Lire la suite",
+    "confidential": "Confidentiel",
+    "problem": "Problème",
+    "solution": "Solution",
+    "result": "Résultat"
+  }
+}

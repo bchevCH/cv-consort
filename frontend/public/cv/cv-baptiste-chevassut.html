@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Baptiste Chevassut - Ingénieur OpenStack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 8.5pt;
+      line-height: 1.35;
+      color: #1a1a1a;
+      background: white;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+
+    .page {
+      width: 190mm;
+      height: 277mm;
+      padding: 0;
+      margin: 0 auto 10mm auto;
+      background: white;
+      overflow: hidden;
+      page-break-after: always;
+      position: relative;
+    }
+
+    .page:last-child {
+      page-break-after: avoid;
+    }
+
+    /* Header */
+    .header {
+      display: table;
+      width: 100%;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 8px;
+      margin-bottom: 8px;
+    }
+
+    .header-left {
+      display: table-cell;
+      vertical-align: top;
+      width: 60%;
+    }
+
+    .header-photo {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100px;
+      padding-right: 15px;
+    }
+
+    .header-photo img {
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .header-right {
+      display: table-cell;
+      vertical-align: top;
+      text-align: right;
+      width: 40%;
+    }
+
+    h1 {
+      font-size: 20pt;
+      font-weight: 700;
+      color: #1d4ed8;
+      margin: 0;
+    }
+
+    .subtitle {
+      font-size: 11pt;
+      font-weight: 600;
+      color: #333;
+      margin-top: 2px;
+    }
+
+    .contact-line {
+      font-size: 8pt;
+      color: #444;
+      margin-top: 1px;
+    }
+
+    .contact-line a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+
+    .portfolio-badge {
+      display: inline-block;
+      margin-top: 4px;
+      padding: 3px 8px;
+      background: #3b82f6;
+      color: white;
+      font-size: 7.5pt;
+      font-weight: 600;
+    }
+
+    /* Info bar */
+    .info-bar {
+      background: #f8fafc;
+      border-left: 3px solid #3b82f6;
+      padding: 5px 8px;
+      margin-bottom: 8px;
+      font-size: 8pt;
+      color: #334155;
+    }
+
+    .info-bar span {
+      margin-right: 15px;
+    }
+
+    .info-bar strong {
+      color: #1a1a1a;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 8px;
+    }
+
+    .section-title {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #3b82f6;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+    }
+
+    /* Profile */
+    .profile-text {
+      font-size: 8.5pt;
+      color: #334155;
+      line-height: 1.4;
+      text-align: justify;
+    }
+
+    /* Experience */
+    .exp {
+      margin-bottom: 10px;
+    }
+
+    .exp-title {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+
+    .exp-title .company {
+      color: #3b82f6;
+    }
+
+    .exp-meta {
+      font-size: 7.5pt;
+      color: #64748b;
+      margin-bottom: 3px;
+    }
+
+    .exp-list {
+      margin: 0;
+      padding-left: 12px;
+      list-style: none;
+    }
+
+    .exp-list li {
+      font-size: 8pt;
+      color: #334155;
+      margin-bottom: 2px;
+      position: relative;
+      padding-left: 8px;
+    }
+
+    .exp-list li::before {
+      content: "›";
+      position: absolute;
+      left: 0;
+      color: #3b82f6;
+      font-weight: bold;
+    }
+
+    .exp-stack {
+      font-size: 7pt;
+      color: #64748b;
+      margin-top: 2px;
+    }
+
+    /* Skills grid */
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .skills-table td {
+      width: 50%;
+      vertical-align: top;
+      padding: 4px;
+    }
+
+    .skill-box {
+      background: #f8fafc;
+      border-left: 2px solid #3b82f6;
+      padding: 5px 7px;
+      margin-bottom: 5px;
+    }
+
+    .skill-box-title {
+      font-size: 8pt;
+      font-weight: 700;
+      color: #2563eb;
+      margin-bottom: 2px;
+    }
+
+    .skill-box-content {
+      font-size: 7.5pt;
+      color: #334155;
+      line-height: 1.35;
+    }
+
+    /* Two columns */
+    .two-col {
+      display: table;
+      width: 100%;
+    }
+
+    .two-col > div {
+      display: table-cell;
+      width: 50%;
+      vertical-align: top;
+      padding-right: 10px;
+    }
+
+    .two-col > div:last-child {
+      padding-right: 0;
+      padding-left: 10px;
+    }
+
+    /* Small items */
+    .item {
+      margin-bottom: 5px;
+    }
+
+    .item-title {
+      font-size: 8.5pt;
+      font-weight: 600;
+      color: #1a1a1a;
+    }
+
+    .item-sub {
+      font-size: 7.5pt;
+      color: #64748b;
+    }
+
+    .lang-row {
+      display: table;
+      width: 100%;
+      font-size: 8pt;
+      border-bottom: 1px dotted #e2e8f0;
+      padding: 2px 0;
+    }
+
+    .lang-row span:first-child {
+      display: table-cell;
+      font-weight: 500;
+    }
+
+    .lang-row span:last-child {
+      display: table-cell;
+      text-align: right;
+      color: #64748b;
+    }
+
+    /* Project box */
+    .project-box {
+      background: #f8fafc;
+      border-left: 3px solid #3b82f6;
+      padding: 6px 8px;
+    }
+
+    .project-box-title {
+      font-size: 8.5pt;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 3px;
+    }
+
+    .project-box-text {
+      font-size: 7.5pt;
+      color: #334155;
+      line-height: 1.4;
+    }
+
+    .project-box-cta {
+      font-size: 7pt;
+      color: #3b82f6;
+      font-weight: 600;
+      margin-top: 3px;
+    }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      font-size: 7.5pt;
+      color: #64748b;
+      border-top: 1px solid #e2e8f0;
+      padding-top: 8px;
+      margin-top: 15px;
+    }
+
+    .footer a {
+      color: #3b82f6;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    @media print {
+      body { margin: 0; padding: 0; }
+      .page { margin: 0; height: auto; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="page">
+  <div class="header">
+    <div class="header-photo">
+      <img src="/photos/baptiste-avatar.jpg" alt="Baptiste Chevassut">
+    </div>
+    <div class="header-left">
+      <h1>Baptiste Chevassut</h1>
+      <div class="subtitle">Ingénieur OpenStack</div>
+    </div>
+    <div class="header-right">
+      <div class="contact-line">baptiste@chevassut.ch | +33 6 34 24 96 67</div>
+      <div class="contact-line">31 rue des Voirons, 74100 Ville-La-Grand</div>
+      <div class="contact-line"><a href="#">LinkedIn</a> | <a href="#">GitHub</a></div>
+      <div class="portfolio-badge">os-apply.consort.chevassut.ch</div>
+    </div>
+  </div>
+
+  <div class="info-bar">
+    <span><strong>Statut:</strong> Frontalier (Permis G)</span>
+    <span><strong>Disponibilité:</strong> Immédiate</span>
+    <span><strong>Mobilité:</strong> Permis B + véhicule</span>
+    <span><strong>Astreintes:</strong> Disponible</span>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Profil</div>
+    <p class="profile-text">
+      Cloud Engineer avec 5+ ans d'expérience, spécialisé OpenStack et infrastructure multi-cloud. Mon parcours combine expertise opérationnelle (support N1-N3 Infomaniak, consulting horlogerie suisse), vision produit (NeoStack : simplifier la gestion OpenStack au quotidien) et innovation AI/LLM (RAG, fine-tuning, agents autonomes). Fondateur de BeConseil, je délivre des solutions cloud résilientes et conformes pour des clients exigeants (cabinets d'avocats, industrie horlogère...).
+    </p>
+  </div>
+
+  <div class="section">
+    <div class="section-title">Expérience professionnelle</div>
+
+    <div class="exp">
+      <div class="exp-title">Founder & CEO | <span class="company">BeConseil</span></div>
+      <div class="exp-meta">Avril 2024 – Présent | 1 an 8 mois | Suisse, France</div>
+      <ul class="exp-list">
+        <li>NeoStack : alternative moderne à Horizon pour simplifier l'exploitation OpenStack (assistant IA intégré)</li>
+        <li>FBT Avocats SA (Genève) : infrastructure IA hybride (on-premise + réplicat OpenStack Infomaniak) + application PKI en production</li>
+        <li>Application de transcription complète : speech-to-text (Whisper), diarization, résumé IA automatique</li>
+        <li>Développement et intégration ERP/CRM : Odoo, Dolibarr, migration data ERP pour clients B2B</li>
+        <li>Supervision équipes de développement externalisées (Node.js, Angular, MongoDB, PHP)</li>
+        <li>Consulting infrastructure cloud pour PME suisses et françaises (audits, migrations, optimisation)</li>
+        <li>Pipelines DevOps Python/Terraform/Ansible pour déploiements cloud automatisés</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> OpenStack, Python, FastAPI, Terraform, Ansible, Docker, Odoo, LangChain</div>
+    </div>
+
+    <div class="exp">
+      <div class="exp-title">Blockchain Support Engineer | <span class="company">Aura Blockchain Consortium</span></div>
+      <div class="exp-meta">Février 2024 – Avril 2024 | 2 mois | Genève</div>
+      <ul class="exp-list">
+        <li>Intégration cloud Azure : Application Gateway, Virtual Networks pour infrastructure blockchain</li>
+        <li>Automatisation Python pour workflows inter-départements et intégrations API</li>
+        <li>PoC NFC chiffré pour authentification produits de luxe (LVMH, Prada, Cartier)</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> Azure, Python, Blockchain, NFC, Jira, Notion</div>
+    </div>
+
+    <div class="exp">
+      <div class="exp-title">Freelance IT System Engineer</div>
+      <div class="exp-meta">Juillet 2023 – Février 2024 | 8 mois | Neuchâtel, Lausanne, Genève</div>
+      <ul class="exp-list">
+        <li>ESN & IT Services : consulting infrastructure, audits sécurité, optimisation performance</li>
+        <li>Déploiement infrastructures hybrides OpenStack + VMware pour clients exigeants</li>
+        <li>Support L2-L3 : diagnostic incidents complexes, amélioration performance systèmes</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> OpenStack, VMware, KVM, Ceph, Linux, Security Hardening</div>
+    </div>
+
+    <div class="exp">
+      <div class="exp-title">Tech Lead – Public Cloud (IaaS) | <span class="company">Infomaniak Network SA</span></div>
+      <div class="exp-meta">Décembre 2021 – Juillet 2023 | 1 an 7 mois | Genève</div>
+      <ul class="exp-list">
+        <li>Support N1-N3 produits Cloud & OpenStack Infomaniak (Public Cloud, Jelastic) : troubleshooting Nova, Neutron, Cinder, Ceph</li>
+        <li>Résolution incidents complexes : Security Groups Neutron, OSD Ceph rebalancing, performance I/O</li>
+        <li>Conseil architecture clients VIP : design cloud privé, migration workloads, optimisation coûts</li>
+        <li>Backup & sécurité : SwissBackup, gestion DNS/SSL, conformité données suisses</li>
+        <li>Projet Customer Reassurance : satisfaction client de 2.2/5 à 4.5/5 (70 → 725 avis)</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> OpenStack (Nova, Neutron, Cinder, Keystone, Swift), Ceph, KVM, SwissBackup</div>
+    </div>
+
+    <div class="exp">
+      <div class="exp-title">Founder | <span class="company">UMB Network S.A.R.L</span></div>
+      <div class="exp-meta">Mai 2020 – Novembre 2021 | 1 an 7 mois | Grenoble, France</div>
+      <ul class="exp-list">
+        <li>Gestion infrastructure multi-cloud (Proxmox HA, VMware, Azure, AWS) pour 80+ clients</li>
+        <li>Direction équipe technique de 8 personnes (4 employés + 4 freelancers)</li>
+        <li>E-commerce & Click and Collect via WooCommerce API, solutions IoT fleet management</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> VMware, Proxmox, Azure, AWS, WordPress, Team Leadership</div>
+    </div>
+
+    <div class="exp">
+      <div class="exp-title">IT Manager (Alternance) | <span class="company">Atoll Groupe</span></div>
+      <div class="exp-meta">Octobre 2019 – Mai 2020 | 8 mois | Grenoble, France</div>
+      <ul class="exp-list">
+        <li>Migration cloud : transition infrastructure on-premise vers Azure pour 300+ machines</li>
+        <li>Déploiement Windows RDS avec 250+ CALs, administration VMware, monitoring Nagios</li>
+      </ul>
+      <div class="exp-stack"><strong>Stack:</strong> Azure, VMware, Windows Server, RDS, Nagios, PowerShell, MSSQL</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="section">
+    <div class="section-title">Compétences techniques</div>
+    <table class="skills-table">
+      <tr>
+        <td>
+          <div class="skill-box">
+            <div class="skill-box-title">OpenStack</div>
+            <div class="skill-box-content">Nova, Neutron, Cinder, Keystone, Glance, Swift, Heat, Octavia, Barbican, Cloudkitty, Designate, Horizon, Manila, Magnum</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Linux & Virtualisation</div>
+            <div class="skill-box-content">Debian, Ubuntu, RHEL, Rocky, CentOS, Fedora | KVM/QEMU, Proxmox, VMware vSphere/ESXi, LXC | systemd, IPMI/iDRAC</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Cloud Multi-Provider</div>
+            <div class="skill-box-content">Infomaniak, OVH, Azure (VNet, NSG, AKS, Entra ID), AWS (VPC, EC2, S3), GCP, Scaleway</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">DevOps & Automation</div>
+            <div class="skill-box-content">Terraform, Ansible, Pulumi, Chef, Puppet | Docker, Kubernetes/K3s, Docker Swarm, Portainer | GitHub Actions, GitLab CI, Jenkins, ArgoCD</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Réseau & Sécurité</div>
+            <div class="skill-box-content">TCP/IP, VLAN, VXLAN, BGP/OSPF, SDN | HAProxy, NGINX, Traefik | OpenVPN, WireGuard | pfSense, OPNsense, Fortinet, Sophos</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Stockage & BDD</div>
+            <div class="skill-box-content">Ceph, Swift, MinIO, GlusterFS, NFS/SMB | PostgreSQL, MySQL, MSSQL, Redis, MongoDB, Qdrant | Rsync, SwissBackup, Veeam</div>
+          </div>
+        </td>
+        <td>
+          <div class="skill-box">
+            <div class="skill-box-title">Monitoring & Observabilité</div>
+            <div class="skill-box-content">Prometheus, Grafana, Alertmanager | Zabbix, Nagios, Netdata | ELK Stack, Loki, Graylog | OpenTelemetry</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Développement & Scripting</div>
+            <div class="skill-box-content">Python, Bash, PowerShell, PHP, JavaScript | FastAPI, Django, Node.js | React, Angular | REST, GraphQL, OAuth2</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Cybersécurité</div>
+            <div class="skill-box-content">Kali, Metasploit, Burp Suite, OWASP ZAP, Nmap, Wireshark | SIEM (Splunk, Sentinel), IDS/IPS | WAF, Zero Trust, RBAC, MFA, Hardening</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">AI & LLM</div>
+            <div class="skill-box-content">LangChain, RAG (FAISS, ChromaDB, Weaviate) | LLM (Claude, Mistral, Llama), Whisper | Fine-tuning (LoRA, PEFT) | vLLM, Ollama, CUDA/cuDNN</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Platforms & CMS</div>
+            <div class="skill-box-content">WordPress, Prestashop, WooCommerce | Odoo, SAP, Salesforce, Dolibarr | Notion, Confluence, Jira | GLPI</div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-box-title">Méthodologies</div>
+            <div class="skill-box-content">Agile, Scrum, Kanban | DevOps, ITILv4 | Gestion de projet, Risk assessment | Documentation (Draw.io, Mermaid)</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="two-col">
+    <div>
+      <div class="section">
+        <div class="section-title">Formation</div>
+        <div class="item">
+          <div class="item-title">BTS Services Informatiques aux Organisations (SIO)</div>
+          <div class="item-sub">CFP Charmilles, Genève | 2019-2020 | 1ère année en alternance</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Baccalauréat STMG – Mention Bien</div>
+          <div class="item-sub">Lycée Aristide Bergès, France | 2019 | Projet final 20/20 (Plateforme Exchange Crypto)</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Langues</div>
+        <div class="lang-row"><span><strong>Français</strong></span><span>Langue maternelle</span></div>
+        <div class="lang-row"><span><strong>Anglais</strong></span><span>C1 – Usage professionnel quotidien</span></div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Informations complémentaires</div>
+        <div style="font-size: 8pt; color: #334155; line-height: 1.5;">
+          <div><strong>Domicile:</strong> Ville-La-Grand (74) – 25-35 min de Genève</div>
+          <div><strong>Transports:</strong> Vélo (Voie Verte), Léman Express, Véhicule</div>
+          <div><strong>Centres d'intérêt:</strong> Voile & régate (Lac Léman), Veille tech</div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="section">
+        <div class="section-title">Certifications & Références</div>
+        <div class="item">
+          <div class="item-title">Certificat de travail Infomaniak Network SA</div>
+          <div class="item-sub">"Esprit d'équipe", "Sens de la communication", "Attitude positive", "Autonomie"</div>
+        </div>
+        <div class="item">
+          <div class="item-title">12 recommandations LinkedIn</div>
+          <div class="item-sub">Kevin Allioli (Mentor), Siméon Gourlin, Caner Korkut, Julien Cauwet, et autres</div>
+        </div>
+        <div class="item">
+          <div class="item-title">Références professionnelles disponibles sur demande</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="section-title">Projet phare</div>
+        <div class="project-box">
+          <div class="project-box-title">NeoStack – Plateforme de gestion OpenStack</div>
+          <div class="project-box-text">
+            Alternative moderne à Horizon : interface unifiée pour piloter 13 services OpenStack, assistant IA pour accélérer le troubleshooting et l'exploitation quotidienne.
+          </div>
+          <div class="project-box-cta">Démo vidéo disponible sur le portfolio</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
+
+<!-- deploy trigger -->

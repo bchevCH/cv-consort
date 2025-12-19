@@ -1,0 +1,8 @@
+---
+- name: Rebuild and restart container
+  community.docker.docker_compose_v2:
+    project_src: "{{ app_dir }}"
+    build: always
+    state: present
+    recreate: always
+  become_user: "{{ app_user }}"

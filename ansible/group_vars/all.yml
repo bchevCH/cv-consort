@@ -1,0 +1,19 @@
+# Variables Ansible - CV Consort
+
+# Application
+domain_name: os-apply.consort.chevassut.ch
+certbot_email: baptiste@chevassut.ch
+
+# Utilisateur
+app_user: deploy
+app_group: www-data
+
+# Chemins
+app_dir: /opt/cv-consort
+
+# Git
+git_repo: https://github.com/bchevCH/cv-consort.git
+git_branch: main
+
+# Docker
+docker_network: cv-network

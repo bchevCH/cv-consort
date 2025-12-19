@@ -1,0 +1,87 @@
+{
+  "navigation": {
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "deployment": "Deployment",
+    "contact": "Contact Me"
+  },
+  "hero": {
+    "terminal": {
+      "loadingSpecs": "Loading job specs",
+      "done": "DONE",
+      "match": "MATCH",
+      "checkingStack": "Checking technical stack",
+      "checkingSoftSkills": "Checking soft skills",
+      "statusReady": "Status: Ready to onboard into an OpenStack adventure."
+    }
+  },
+  "about": {
+    "passionTitle": "What drives me"
+  },
+  "offer": {
+    "officialAd": "Official Job Posting",
+    "expandAd": "View mission details",
+    "collapseAd": "Collapse",
+    "myUnderstanding": "My Understanding of the Role",
+    "myUnderstandingDesc": "How I would translate your client's needs into concrete actions.",
+    "viewOriginalAd": "View original job posting"
+  },
+  "skills": {
+    "keySkills": "Key Skills",
+    "ecosystem": "Ecosystem & Tools",
+    "challengeSolved": "Challenge Solved"
+  },
+  "timeline": {
+    "subtitle": "A journey built on technical expertise and human values",
+    "currentPosition": "Current Position",
+    "keyAchievements": "Key Achievements"
+  },
+  "projects": {
+    "keyFeatures": "Key Features",
+    "infraSpecs": "Infrastructure Specs",
+    "flagship": "Flagship",
+    "clickToEnlarge": "Click to enlarge",
+    "pressEscToClose": "Press Esc or click to close"
+  },
+  "testimonials": {
+    "certificate": "Work Certificate",
+    "official": "Official",
+    "qualities": "Highlighted qualities",
+    "downloadCertificate": "Download certificate",
+    "linkedinTitle": "LinkedIn Recommendations",
+    "linkedinSubtitle": "Verified feedback from my professional network",
+    "seeMoreLinkedin": "See 8 more recommendations on LinkedIn"
+  },
+  "commute": {
+    "origin": "Home",
+    "destination": "Destination",
+    "preferred": "Preferred",
+    "note": "Note",
+    "noteText": "Pont-Rouge is an ideal strategic location. Its proximity to the Voie Verte (bike path) and CEVA train station ensures exemplary punctuality, far better than crossing the Mont-Blanc bridge."
+  },
+  "contact": {
+    "valueProposition": "Value proposition",
+    "valueQuestion": "Why this mission and not another?",
+    "coordinates": "Contact info",
+    "status": "Status",
+    "readyToDeploy": "Ready for",
+    "excellence": "the adventure?",
+    "ctaDescription": "My OpenStack expertise and product vision are at your disposal. Let's build tomorrow's infrastructure for Consort and its clients together.",
+    "immediateAvailability": "Immediately Available",
+    "gPermit": "G Permit (Cross-border)",
+    "sourceCode": "Source Code",
+    "sourceCodeDesc": "This site is open-source. Explore the Terraform and React code on GitHub.",
+    "viewRepository": "View repository"
+  },
+  "labels": {
+    "download": "Download",
+    "viewMore": "View more",
+    "readMore": "Read more",
+    "confidential": "Confidential",
+    "problem": "Problem",
+    "solution": "Solution",
+    "result": "Result"
+  }
+}

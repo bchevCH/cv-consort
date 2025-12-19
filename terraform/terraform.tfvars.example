@@ -1,0 +1,20 @@
+# Terraform Variables - CV Consort
+# Copier vers terraform.tfvars et remplir
+# NE PAS COMMITER terraform.tfvars
+#
+# Documentation Infomaniak Public Cloud:
+# https://docs.infomaniak.cloud/
+
+# OpenStack (Infomaniak Public Cloud)
+# Récupérer sur: https://api.pub1.infomaniak.cloud/horizon/ → Project → API Access
+os_project_name = "PCP-XXXXXXX"
+os_username     = "PCU-XXXXXXX"
+os_password     = ""
+
+# SSH
+ssh_public_key       = "ssh-rsa AAAA... ou ssh-ed25519 AAAA..."  # ssh-keygen -y -f votre-cle.pem
+ssh_private_key_path = "../consort-key"  # Clé à la racine du projet
+ssh_allowed_cidrs    = ["YOUR.PUBLIC.IP/32"]  # curl ifconfig.me or 0.0.0.0/0 for all
+
+# Ansible (optionnel)
+run_ansible = true

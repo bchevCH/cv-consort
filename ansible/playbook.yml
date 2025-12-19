@@ -1,0 +1,18 @@
+# Playbook Ansible - CV Consort
+# Configure Docker + Nginx pour servir le site
+---
+- name: Configure CV server
+  hosts: cv_servers
+  become: yes
+  vars_files:
+    - group_vars/all.yml
+
+  roles:
+    - common
+    - docker
+    - frontend
+
+  post_tasks:
+    - name: Done
+      debug:
+        msg: "Site déployé sur https://{{ domain_name }}"

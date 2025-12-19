@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://consort.chevassut.ch/sitemap.xml
